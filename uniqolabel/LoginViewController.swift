@@ -20,11 +20,11 @@ class LoginViewController: UIViewController{
         addDoneButtonOnNumPad()
     }
     
-    //    override func viewWillAppear(_ animated: Bool) {
-    //        super.viewWillAppear(true)
-    //        phoneNumberTextField.text = ""
-    //        nameTextField.text = ""
-    //    }
+        override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(true)
+            phoneNumberTextField.text = ""
+            nameTextField.text = ""
+        }
     
     //MARK: BUTTON ACTIONS
     @IBAction func OTPButton(_ sender: Any) {
